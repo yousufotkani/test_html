@@ -7,19 +7,18 @@
   font-family: "Open Sans", sans-serif;
   font-size: 60px;
   font-weight: bolder;
-  background-color: rgb(120, 120, 120);
+ /*  background-color: rgb(120, 120, 120); */
+ background: url(/images/ue3.png);
+ color: gainsboro;
   text-align: center;
   padding: 50px;
-  /* border: 10px solid black; */
-  margin: 0px;
-  border-spacing: 0px;
-
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: 528px;
+  margin: 0px;0
   box-sizing: border-box;
 }
 
-.apple1{
+/* .apple1{
   font-size: 15px;
   margin-top: 20px;
   color: honeydew;
@@ -35,8 +34,9 @@
   margin-top: 0px;
   display: inline-block;  
   background-color: hotpink;
-  border-radius: 2px;
-}
+  border-radius: 2px
+  ;
+} */
 
 .indic {
   background-color: rgb(60, 60, 60);
@@ -116,4 +116,8 @@ p::first-letter {
   text-align: center;
   font-size: 30px;
   font-family: "Ubuntu", sans-serif;
+}
+
+a.takt{
+  background-color: brown;
 }

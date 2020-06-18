@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: inherit;
+}
+
+.apple {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  font-weight: bolder;
+  background-color: rgb(120, 120, 120);
+  text-align: center;
+  padding: 50px;
+  /* border: 10px solid black; */
+  margin: 0px;
+  border-spacing: 0px;
+
+  /* width: 100%;
+  height: 100%; */
+  box-sizing: border-box;
+}
+
+.apple1{
+  font-size: 15px;
+  margin-top: 20px;
+  color: honeydew;
+  font-weight: lighter;
+  font-family: "Noto Sans JP", sans-serif;
+  display: block;
+
+}
+
+.login_button{
+  padding: 2px;
+  margin: 0px;
+  margin-top: 0px;
+  display: inline-block;  
+  background-color: hotpink;
+  border-radius: 2px;
+}
+
+.indic {
+  background-color: rgb(60, 60, 60);
+}
+
+.logo_style {
+  font-size: 22px;
+  font-family: "Ubuntu", sans-serif;
+  color: whitesmoke;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.ib__items {
+  display: inline-block;
+  font-family: "Noto Sans JP", sans-serif;
+  text-decoration: none;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.anchor_style {
+  text-decoration: none;
+  font-size: 20px;
+  color: gainsboro;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.ib__items a:hover {
+  color: honeydew;
+}
+
+.ib__items a:active {
+  color: aqua;
+}
+
+.ibul__item {
+  display: inline-block;
+  /* background-color: gold; */
+
+  padding: 0px;
+  /* width: 100%; */
+  /*  text-align: right ; */
+  vertical-align: middle;
+}
+
+.nav__item {
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.para1{
+  background-color: rgb(200, 200, 200);
+  font-family: "Noto Sans JP", sans-serif;
+  text-indent: 50px;
+  line-height: 2.5;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+p::first-letter {
+  color: black;
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+.whurv{
+  background-color: rgb(60, 60, 60);
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+}

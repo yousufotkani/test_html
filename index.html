@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GOMMA</title>
+    <title>yousuf.inc</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Open+Sans&family=Ubuntu:wght@500&display=swap"
       rel="stylesheet"
@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="shared.css"/>
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
@@ -23,7 +24,7 @@
       <nav class="nav__item">
         <ul class="ibul__item">
           <li class="ib__items">
-            <a href="products.html" class="anchor_style">Our Products</a>
+            <a href="./products/index.html" class="anchor_style">Our Products</a>
           </li>
           <li class="ib__items">
             <a href="gallery.html" class="anchor_style">Visit Gallery</a>
@@ -58,39 +59,37 @@
 
     <section class="plans">
       <h1 class="section-title">Choose what's best for You</h1>
-      <div
-        style="vertical-align: middle; display: inline-block; margin: auto;"
-      >
+      <div>
         <article class="plan">
           <h1>FREE<sup>*</sup></h1>
           <h2>$0/month</h2>
           <h3>Non-Commercial</h3>
           <div>
-            <ul class="plan_features">
-              <li>Unlimited access to oour resources</li>
+            <ul class="plan--features">
+              <li>Limited access to our resources</li>
               <li>One workspace</li>
-              <li>Limited to One Year</li>
-              <li>Can be extended to Premium</li>
+              <li>Limited to 1 Year</li>
+              <li>Unlimited Traffic</li>
             </ul>
           </div>
           <div>
-            <button>Choose Plan</button>
+            <button class="button">Choose Plan</button>
           </div>
         </article>
-        <article class="plan">
-          <h1>RECOMMENDED</h1>
+        <article class="plan plan--highlighted">
+          <h1 class="recommended--xtra">RECOMMENDED</h1>
           <h2>$10/month</h2>
           <h3>Commercial License</h3>
           <div>
-            <ul class="plan_features">
-              <li>Unlimited Access to our resources</li>
+            <ul class="plan--features">
+              <li>Limited Access to our resources</li>
               <li>3 workspaces</li>
               <li>No Data Traffic</li>
-              <li>Access to all PLugins</li>
+              <li>Extended Support</li>
             </ul>
           </div>
           <div>
-            <button>Choose Plan</button>
+            <button class="button">Choose Plan</button>
           </div>
         </article>
         <article class="plan">
@@ -98,19 +97,61 @@
           <h2>$25/month</h2>
           <h3>Commercial License</h3>
           <div>
-            <ul class="plan_features">
+            <ul class="plan--features">
               <li>Unlimited Access to our resources</li>
               <li>3 workspaces</li>
               <li>No Data Traffic</li>
               <li>Access to all PLugins</li>
-              <li>Extended Support</li>
             </ul>
           </div>
           <div>
-            <button>Choose Plan</button>
+            <button class="button">Choose Plan</button>
           </div>
         </article>
       </div>
     </section>
+    <section class="plans">
+      <h1 class="section-title">Many Good Reasons to Stick Around</h1>
+      <ul>
+          <li class="ul--items">
+              <div class="item--image">
+
+              </div>
+              <p>3,857,000 Trusting Customers</p>
+          </li>
+          <li class="ul--items">
+              <div class="item--image">
+                 
+              </div>
+              <p>99.999% Uptime Guarantee</p>
+          </li>
+          <li class="ul--items">
+              <div class="item--image">
+
+              </div>
+              <p>Lightning Fast CDN</p>
+          </li>
+      </ul>
+  </section>
   </body>
+  <footer class="footer">
+    <nav class="footer">
+      <ul class="footer1">
+        <li class="footer--li">
+          <a href="#" class="footer--style">Help</a>
+        </li>
+        <li class="footer--li">
+          <a href="#" class="footer--style">Support</a>
+        </li>
+        <li class="footer--li">
+          <a href="#" class="footer--style">EULA</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="footer--logo">
+      <h1 class="footer--logo">
+        axolotl
+      </h1>
+    </div>
+  </footer>
 </html>

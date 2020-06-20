@@ -1,3 +1,8 @@
+/* html,body{
+    width: 100%;
+    height: 100%;
+} */
+
 .main--body{
     background-color: rgb(136, 136, 136);
     margin: auto;
@@ -5,9 +10,20 @@
 }
 
 body{
-    margin: 0px;
+    margin: auto;
     background-color: rgb(136, 136, 136);
+
 }
+
+/* .background--image{
+    background: url(../images/plans-background.jpg);
+        width: 100%;
+        height: 100%;
+    position: fixed;
+    z-index: -1;
+
+    
+} */
 
 .plans--card{
     
@@ -18,7 +34,25 @@ body{
     box-shadow: 12px 9px 5px 2px rgba(87,87,87,0.7);
     text-align: left;
     width: 80%;
+    height: 300px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
 
+}
+
+.preferred--absolute{
+    background-color: teal;
+    position: absolute;
+    top: 20px;
+    right: -95px;
+    z-index: 1;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 0px;
+    transform: rotate(30deg);
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .plans--card__style{

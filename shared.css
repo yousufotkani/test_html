@@ -1,11 +1,19 @@
-* {
+body,html {
     box-sizing: border-box;
-    margin: inherit;
+    /* margin: 0%;
+    padding: 0%;
+    height: 100%; */
+    margin: 0px;
   }
   
 
   .indic {
     background-color: rgb(60, 60, 60);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0px;
+    left: 0px;
   }
   
   .logo_style {
@@ -82,13 +90,19 @@
     background-color:rgb(27, 27, 27);
     vertical-align: top;
     text-align: center;
-    margin: auto;
-    
+    z-index: 0;
+    /* position: fixed;
+     position: absolute; */ 
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+     
   }
   
   .footer1{
     margin: auto;
     padding: 0px;
+    
   }
   
   .footer--li{

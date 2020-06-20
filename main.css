@@ -2,13 +2,15 @@
   font-family: "Open Sans", sans-serif;
   font-size: 60px;
   font-weight: bolder;
- /*  background-color: rgb(120, 120, 120); */
- background: url(./images/ue3.png);
+ /* background: url(./images/ue3.png); */
+ background-image: url(./images/ue3.png);
+ background-size: cover;
+ background-position: top  bottom;
  color: gainsboro;
   text-align: center;
   padding: 50px;
   width: 100%;
-  height: 528px;
+  height: 800px;
   margin: 0px;
   box-sizing: border-box;
 }
@@ -123,7 +125,7 @@ border-radius: 4px;
 }
 
 .item--image{
-  background-color: ivory;
+  background: url();
   border: 10px;
   padding: 30px;
   width: 128px;
@@ -131,5 +133,47 @@ border-radius: 4px;
   border-radius: 50%;
   margin: auto;
   margin-top: 30px;
+  box-shadow: 6px 4px 3px 1px rgba(87,87,87,0.7);
+
+
+}
+
+.item--image1{
+  background: url(./images/malefoto.PNG);
+  border: 10px;
+  padding: 30px;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+  scale: 0.5;
+
+}
+
+.item--image2{
+  background: url(./images/loading.PNG);
+  border: 10px;
+  border-color: teal;
+  padding: 30px;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 30px;
+
+}
+
+.item--image3{
+  background: url(./images/lightning.PNG);
+  border: 10px;
+  padding: 30px;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 30px;
+  top: ;
 
 }

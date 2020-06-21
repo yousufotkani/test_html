@@ -17,7 +17,25 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
+    <div class="backdrop"></div>
+    <div class="modal">
+      <h1 class="modal__title">Do you want to continue to Payments Page?</h1>
+      <div class="modal__actions">
+        <a href="start-hosting/index.html" class="modal__action">Yes!</a>
+        <button class="modal__action modal__action--negative" type="button">
+          No!
+        </button>
+      </div>
+    </div>
+
     <header class="indic">
+      <div class="menu--icon1">
+        <img
+          src="./images/iconfinder_menu-alt_134216.png"
+          alt="icon"
+          class="menu--icon"
+        />
+      </div>
       <div class="logo_style">
         <a href="index.html" class="logo_style">axolotl</a>
       </div>
@@ -32,7 +50,23 @@
             <a href="gallery.html" class="anchor_style">Visit Gallery</a>
           </li>
           <li class="ib__items">
-            <a href="about.html" class="anchor_style">About Us</a>
+            <a href="./customers/index.html" class="anchor_style">About Us</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+          <li class="mobile-nav__item">
+            <a href="./products/index.html" class="anchor_style"
+              >Our Products</a
+            >
+          </li>
+
+          <li class="mobile-nav__item">
+            <a href="gallery.html" class="anchor_style">Visit Gallery</a>
+          </li>
+          <li class="mobile-nav__item mobile-nav__item--cta">
+            <a href="./customers/index.html" class="anchor_style">About Us</a>
           </li>
         </ul>
       </nav>
@@ -116,20 +150,25 @@
       <h1 class="section-title">Many Good Reasons to Stick Around</h1>
       <ul>
         <li class="ul--items">
-          <div class="item--image item--image1"></div>
-          <p>3,857,000 Trusting Customers</p>
+          <div class="item--image">
+            <img src="./images/malefoto.PNG" alt="lightning img" class="img" />
+          </div>
+          <p class="p--items">3,857,000 Trusting Customers</p>
         </li>
         <li class="ul--items">
-          <div class="item--image item--image2"></div>
-          <p>99.999% Uptime Guarantee</p>
+          <div class="item--image">
+            <img src="./images/loading.PNG" alt="lightning img" class="img" />
+          </div>
+          <p class="p--items">99.999% Uptime Guarantee</p>
         </li>
         <li class="ul--items">
-          <div class="item--image item--image3"></div>
-          <p>Lightning Fast CDN</p>
+          <div class="item--image">
+            <img src="./images/lightning.PNG" alt="lightning img" class="img" />
+          </div>
+          <p class="p--items">Lightning Fast CDN</p>
         </li>
       </ul>
     </section>
-
     <footer class="footer">
       <nav class="footer">
         <ul class="footer1">
@@ -150,5 +189,6 @@
         </a>
       </div>
     </footer>
+    <script src="shared.js"></script>
   </body>
 </html>

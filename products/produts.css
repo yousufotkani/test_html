@@ -3,85 +3,77 @@
     height: 100%;
 } */
 
-.main--body{
-    background-color: rgb(136, 136, 136);
-    margin: auto;
-
+.main--body {
+  background-color: rgb(136, 136, 136);
+  margin: auto;
 }
 
-body{
-    margin: auto;
-    background-color: rgb(136, 136, 136);
-
+body {
+  margin: auto;
+  background-color: rgb(136, 136, 136);
 }
 
-/* .background--image{
-    background: url(../images/plans-background.jpg);
-        width: 100%;
-        height: 100%;
-    position: fixed;
-    z-index: -1;
-
-    
-} */
-
-.plans--card{
-    
-    background-color: whitesmoke;
-    margin: 20px;
-    border-radius: 4px;
-    border: 2px solid teal;
-    box-shadow: 12px 9px 5px 2px rgba(87,87,87,0.7);
-    text-align: left;
-    width: 80%;
-    height: 300px;
-    position: relative;
-    z-index: 0;
-    overflow: hidden;
-
+.background--image{
+    background-image: url(../images/plans-background.jpg);
+    background-size: cover;
+    padding: 1px;
 }
 
-.preferred--absolute{
-    background-color: teal;
-    position: absolute;
-    top: 20px;
-    right: -95px;
-    z-index: 1;
-    border-radius: 8px;
-    padding: 3px;
-    margin: 0px;
-    transform: rotate(30deg);
-    padding-left: 100px;
-    padding-right: 100px;
+.plans--card {
+  background-color: rgb(187, 187, 187);
+  margin: 20px;
+  border-radius: 4px;
+  border: 2px solid teal;
+  box-shadow: 12px 9px 5px 2px rgba(87, 87, 87, 0.7);
+  text-align: left;
+  width: 80vw;
+  height: 200px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
 }
 
-.plans--card__style{
-    font-family: "Open Sans", sans-serif;
-    text-decoration: none;
-    color: black;
-    /* margin: 0px; */
+.preferred--absolute {
+  background-color: teal;
+  position: absolute;
+  top: 30px;
+  right: -95px;
+  z-index: 1;
+  border-radius: 8px;
+  padding: 3px;
+  margin: 0px;
+  transform: rotate(30deg);
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.plans--card__style {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: black;
+  /* margin: 0px; */
 }
 
 .plans--card:hover,
-.plans--card:active{
-    border: 2px solid black;
-    background-color: teal;
-    color: whitesmoke;
-    box-shadow: 24px 18px 10px 4px rgba(87,87,87,0.7);
-    transition: 0.3s;
+.plans--card:active {
+  border: 2px solid black;
+  background-color: teal;
+  color: whitesmoke;
+  box-shadow: 24px 18px 10px 4px rgba(87, 87, 87, 0.7);
+  transition: 0.3s;
 }
 
-.plans--card__p{
-    margin: 20px;
-    text-align: justify;
+.plans--card__p {
+  margin: 20px;
+  text-align: justify;
 }
 
-.plans--card__h1{
-    margin: 0px;
-    margin-left: 20px;
+.plans--card__h1 {
+  margin: 0px;
+  margin-left: 20px;
 }
 
-.plans--card__h2{
-    margin: 0px;
-    margin-left: 20px;
+.plans--card__h2 {
+  margin: 0px;
+  margin-left: 20px;
 }

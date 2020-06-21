@@ -1,18 +1,29 @@
 .apple {
   font-family: "Open Sans", sans-serif;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: bolder;
  /* background: url(./images/ue3.png); */
  background-image: url(./images/ue3.png);
  background-size: cover;
- background-position: top  bottom;
+ background-position: top ;
  color: gainsboro;
   text-align: center;
-  padding: 50px;
-  width: 100%;
-  height: 800px;
-  margin: 0px;
+  padding: 3rem;
+  width: 100vw;
+  height: 100vh;
+  margin: 0rem;
   box-sizing: border-box;
+}
+
+.backdrop{
+  display: none;
+  background-color: rgba(0, 128, 128, 0.315);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 /* .apple1{
@@ -39,26 +50,29 @@
   display: inline-block;
   background-color: rgb(200, 200, 200);
   font-family: "Noto Sans JP", sans-serif;
-  text-indent: 50px;
+  text-indent: 3.125rem;
+  text-align: justify;
   line-height: 2.5;
   font-style: italic;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   font-weight: bolder;
+  margin: 0px;
 }
 
 .para1::first-letter {
   color: black;
-  font-size: 50px;
+  font-size: 3.125rem;
   line-height: 1.5;
 }
 
 .whurv{
   background-color: rgb(60, 60, 60);
-  padding: 20px;
+  padding: 1.25rem;
   text-align: center;
-  font-size: 30px;
-  font-family: "Ubuntu", sans-serif;
+  font-size: 1.875rem;
+  font-weight: bolder;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .plans{
@@ -124,8 +138,12 @@ border-radius: 4px;
   font-family: "Noto Sans JP", sans-serif;
 }
 
+.p--items{
+  font-size: x-large;
+    font-weight: bolder;
+}
+
 .item--image{
-  background: url();
   border: 10px;
   padding: 30px;
   width: 128px;
@@ -134,46 +152,74 @@ border-radius: 4px;
   margin: auto;
   margin-top: 30px;
   box-shadow: 6px 4px 3px 1px rgba(87,87,87,0.7);
-
-
-}
-
-.item--image1{
-  background: url(./images/malefoto.PNG);
-  border: 10px;
-  padding: 30px;
-  width: 128px;
-  height: 128px;
-  border-radius: 50%;
-  margin: auto;
-  margin-top: 30px;
+  overflow: hidden;
+  vertical-align: middle;
   position: relative;
-  scale: 0.5;
+}
+
+.img{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  right: px;
+  top: 0px;
+  left: -8px;
+  /* object-fit: cover; */
+  filter: saturate(50%);
+}
+
+
+.modal {
+  position: fixed;
+  display: none;
+  z-index: 200;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  font-size: 0.8rem;
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  border: 2px solid rgb(60, 60, 60);
+  font-family: "Noto Sans JP", sans-serif;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.modal__title {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.modal__actions {
+  text-align: center;
+}
+
+.modal__action {
+  border: 1px solid #0e4f1f;
+  background: #0e4f1f;
+  text-decoration: none;
+  color: white;
+  font: inherit;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  
 
 }
 
-.item--image2{
-  background: url(./images/loading.PNG);
-  border: 10px;
-  border-color: teal;
-  padding: 30px;
-  width: 128px;
-  height: 128px;
-  border-radius: 50%;
-  margin: auto;
-  margin-top: 30px;
-
+.modal__action:hover,
+.modal__action:active {
+  background: #2ddf5c;
+  border-color: #2ddf5c;
 }
 
-.item--image3{
-  background: url(./images/lightning.PNG);
-  border: 10px;
-  padding: 30px;
-  width: 128px;
-  height: 128px;
-  border-radius: 50%;
-  margin: auto;
-  margin-top: 30px;
-  top: ;
+.modal__action--negative {
+  background: red;
+  border-color: red;
+}
 
+.modal__action--negative:hover,
+.modal__action--negative:active {
+  background: #ff5454;
+  border-color: #ff5454;
 }

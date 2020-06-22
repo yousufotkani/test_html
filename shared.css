@@ -20,7 +20,7 @@ html {
 
 .indic {
   background-color: rgb(60, 60, 60);
-  /* position: fixed; */
+  position: fixed;
   z-index: 1;
   width: 100%;
   text-align: left;
@@ -175,7 +175,7 @@ html {
 .mobile-nav {
   display: none;
   position: fixed;
-  z-index: 10000;
+  z-index: 200;
   top: 0;
   left: 0;
   background: rgb(78, 78, 78);

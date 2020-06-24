@@ -18,27 +18,50 @@ html {
   z-index: 100;
 }
 
-.indic {
+.main--header {
   background-color: rgb(60, 60, 60);
-  position: fixed;
+  z-index: 1;
+  /* width: 100%; */
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+@media(min-width:40rem){
+.main--header {
+  background-color: rgb(60, 60, 60);
   z-index: 1;
   width: 100%;
-  text-align: left;
-  vertical-align: middle;
-  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: right;
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+}
 }
 
-.menu--icon1 {
-  display: inline;
+/* .menu--icon1 {
+  display: flex;
+  padding: 100px;
   
 }
-
+ */
 
 .menu--icon {
   display: inline-block;
-  width: 2%;
-  height: 2%;
+  width: 4%;
+  height: 4%;
+  margin: 4px;
+  padding: 8px;
   cursor: pointer;
+}
+
+@media(min-width:40rem){
+  .menu--icon{
+    display: none;
+  }
 }
 
 .menu--icon:hover,
@@ -50,6 +73,9 @@ html {
 
 .logo_style--div{
   display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .logo_style {
@@ -57,11 +83,9 @@ html {
   font-family: "Ubuntu", sans-serif;
   color: whitesmoke;
   text-decoration: none;
-  display: inline-block;
-  margin: 0px;
-  vertical-align: middle;
-  /* position: absolute; */
 }
+
+
 
 .ib__items {
   display: inline-block;
@@ -89,17 +113,19 @@ html {
 }
 
 .ibul__item {
-  display: inline-block;
-  /* background-color: gold; */
-  position: absolute;
-  padding: 0px;
-  right: 0px;
-  top: 2px;
-  /* width: 100%; */
-  /*  text-align: right ; */
-  vertical-align: middle;
   margin: 0rem;
+  display: none;
+  
 }
+
+@media(min-width:40rem){
+  .ibul__item{
+    display: unset;
+  }
+
+}
+
+
 
 .nav__item {
   display: inline-block;
@@ -127,38 +153,34 @@ html {
 
 .footer {
   background-color: rgb(27, 27, 27);
-  /* vertical-align: top; */
-  text-align: center;
-  z-index: 0;
-  /* position: fixed;s
-     position: absolute; */
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .footer1 {
   margin: auto;
   padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
 }
 
 .footer--li {
-  display: inline-block;
-  width: 30%;
   padding: 5px;
 }
 
-.footer--ul {
-  display: inline-block;
-  padding: 5px;
-}
 
 .footer--style {
   text-decoration: none;
   color: whitesmoke;
   font-family: "Open Sans", sans-serif;
   display: inline-block;
-  margin: 5px;
+  margin: 0px;
   vertical-align: top;
 }
 
